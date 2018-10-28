@@ -1,0 +1,47 @@
+.rcon {
+    width: 1000px;
+    margin:0 auto;
+}
+/*rheader*/
+#rheader{width: 100%;height: 100px;}
+.rheader{height: 100px;position: relative;}
+.rheader .logo{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 330px;
+    height: 65px;
+    line-height: 65px;
+    background:url(../images/logo.png) no-repeat;
+}
+.rheader div{
+    position: absolute;
+    left: 458px;
+    top: 0;
+    height: 100px;
+    width: 504px;
+    background:url(../images/rheader_r.png) no-repeat 0 31px;
+}
+
+/*rbottom*/
+#rbottom{width: 100%;height: 255px;}
+.rbottom{
+    height: 209px;
+    padding-top: 46px;
+    line-height: 26px;
+    text-align: center;
+    color: #999;
+}
+.rbottom a{font-size: 14px;color:#666666;}
+.rbottom .setHui{color:#999;}
+.rbottom a:hover{color: #c2c2c2;}
+.rbottom span{
+    margin: 0 20px;
+    font-size: 12px;
+}
+.rbottom .gongan{margin-left: 3px;}
+.rbottom div{height: 35px;}
+.rbottom div img{
+    height: 30px;
+    margin:5px 12px 0 0;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base_pc.css" />
+        <link rel="stylesheet" type="text/css" href="../css/reglog.css" />
+        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../js/login.js"></script>
+        <script type="text/javascript" src="../js/code.js"></script>
+    </head>
+    <body>
+        <div id="rheader">
+            <div class="rheader rcon">
+                <a class="logo" href="../index.html" title="网易考拉"></a>
+                <div></div>
+            </div>
+        </div>
+        <div id="rmain">
+            <div class="rmain rcon">
+                <img src="../images/yuanzhuang.png" alt="" />
+                <a href="#"></a>
+                <!-- <form action="" ></form> -->
+                <!-- 登录界面 -->
+                <div class="lform form">
+                    <div class="lform_t">
+                        <div class="phone bianH">手机号登录</div>
+                        <span>&nbsp;</span>
+                        <div class="email bianH">邮箱登录</div>
+                    </div>
+                    <div class="txt">
+                        <!-- 手机号登陆时显示 -->
+                        <div class="tel">
+                            <p class="way mimap"><a class="bianH" >使用密码验证登录</a></p>
+                            <p class="way duanxinp hide"><a class="bianH" >使用短信验证登录</a></p>
+                            <div class="uname inputbox user">
+                                <span><img src="../images/rphone.png" alt="" /></span>
+                                <input id="telephone" type="text" placeholder="请输入手机号"/>
+                            </div>
+                        </div>
+                        <!-- 邮箱登录时显示 -->
+                        <div class="wyemail hide">
+                            <div class="uname inputbox user">
+                                <span><img src="../images/youxiang.png" alt="" /></span>
+                                <input type="text" placeholder="网易邮箱账号"/>
+                            </div>
+                            <div class="psword inputbox user">
+                                    <span><img src="../images/rmima.png" alt="" /></span>
+                                    <input type="password" placeholder="密码"/>
+                                </div>
+                                <p class="testMima"></p>
+                        </div>
+                        <div class="telephone">
+                            <!-- 手机号登陆，短信登陆时显示,默认 -->
+                            <div class="duanxin">
+                                <div class="slide">
+                                    <img src="../images/slider.png" alt="" />
+                                    <span>按住滑块，拖动完成上方拼图</span>
+                                </div>
+                                <div class="ma inputbox">
+                                    <input type="text" placeholder="请输入短信验证码"/>
+                                    <span class="bianH">获取验证码</span>
+                                </div>
+                                <p class="testMa"></p>
+                            </div>
+                            <!-- 手机号登陆，密码登陆时显示 -->
+                            <div class="mima hide">
+                                <div class="psword inputbox user">
+                                    <span><img src="../images/rmima.png" alt="" /></span>
+                                    <input id="password" type="password" placeholder="请输入密码"/>
+                                </div>
+                                <p class="testMima"></p>
+                            </div>
+                        </div>
+                        <input class="rbtn" type="button" value="登 陆" />
+                        <input id="check" type="checkbox" checked="checked" /> <label for="check" class="xuanz bianH"><span>10天免登陆</span></label><a class="wenti bianH" href="#">遇到问题？</a>
+                    </div>
+                    <div class="toreg">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="../images/wxreg.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../images/zfbreg.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../images/wbreg.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../images/qqreg.png" alt="" /></a>
+                            </li>
+                        </ul>
+                        <a class="kuaizc">手机快捷注册 ></a>
+                    </div>
+                </div>
+                <!-- 注册界面 -->
+                <div class="rform form">
+                    <p>
+                        <span>欢迎注册</span>
+                        <span>已有账号？<a class="qulogin">去登陆></a></span>
+                    </p>
+                    <div class="txt">
+                        <p class="testName"></p>
+                        <div class="uname inputbox user">
+                            <span><img src="../images/rphone.png" alt="" /></span>
+                            <input id="phone" type="text" placeholder="请输入手机号"/>
+                        </div>
+                        <div class="slide">
+                            <img src="../images/slider.png" alt="" />
+                            <span>按住滑块，拖动完成上方拼图</span>
+                        </div>
+                        <div class="ma inputbox">
+                            <input id="yzma" type="text" placeholder="请输入短信验证码"/>
+                            <span id="getyzm">获取验证码</span>
+                        </div>
+                        <p class="testMa"></p>
+                        <div class="psword inputbox user">
+                            <span><img src="../images/rmima.png" alt="" /></span>
+                            <input id="mima" type="password" placeholder="请输入密码"/>
+                        </div>
+                        <p class="testMima"></p>
+                        <input class="rbtn" type="button" value="注 册" />
+
+                        <input id="check" type="checkbox" checked="checked" /> <label for="check" class="xuanz"><span>我同意<a href="#">《服务条款》</a>和<a href="#">《网易隐私政策》</a></span></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rbottom">
+            <div class="rbottom rcon">
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a><span>|</span>
+                <a href="#">网易考拉</a>
+                <br />
+                <span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+                <span>增值电信业务经营许可证：浙B2-20160288</span>
+                <span><a href="#">自营经营者信息</a></span>
+                <span>（浙）网械平台备字[2018]第00007号</span>
+                <br />
+                <a href="#"><img src="../images/gongan.png" alt="" /></a>
+                <a class="setHui" href="#"><span class="gongan">浙公网安备 33010802002216号</span></a>
+                <span>网易公司版权所有©1997-2018</span>
+                <a class="setHui" href="#"><span>互联网药品信息服务资格证书编号（浙）-2017-0027</span></a>
+                <span>浙ICP备16011229号-6</span>
+                <div>
+                    <a href="#"><img src="../images/kexin.png" alt="" /></a>
+                    <a href="#"><img src="../images/gongshang.gif" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

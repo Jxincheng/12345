@@ -1,0 +1,177 @@
+#nav .nav .classify ul{display: none;}
+#nav .nav .classify:hover ul{
+    display: block;
+}
+
+#nav .nav .nav_ul li:nth-child(7) a{
+    color: red;
+}
+
+#bjt{
+    width: 100%;
+    height: 400px;
+    background:url(../images/nf_bjt.png) no-repeat center top;
+}
+/*main*/
+.mcon {
+    width: 1000px;
+    margin:0 auto;
+}
+#main{
+    width: 100%;
+    background-color: #a3d0f1;
+    color: #000000;
+}
+.main{padding:0 50px;}
+.main h3{
+    padding: 20px 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 28px;
+}
+.main .title{
+    display: block;
+    margin-bottom: 15px;
+    height: 50px;
+    border-top: 2px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+.main .title ul li{
+    float: left;
+    /*width: 248px;*/
+    height: 51px;
+    border: 1px solid #ddd;
+    border-top: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center !important;
+    position: relative;
+    background-color: rgb(218, 240, 254);
+    /*border-color: rgb(221, 221, 221);*/
+    box-sizing: border-box;
+}
+.main1 .title ul li{width: 25%;}
+.main2 .title ul li{width: 33.3%;}
+.dw .title ul li{width: 50%;}
+.main .title ul li span{
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid #a3d0f1;
+    border-top-color: inherit;
+    border-bottom: none;
+    color: #a3d0f1;
+}
+.main .content{padding: 10px 0 12px 0;}
+.main .content ul li{
+    float: left;
+    width: 244px;
+    height: 366px;
+    margin:0 8px 8px 0; 
+}
+.main .content ul li:nth-child(4n){
+    margin:0;
+}
+.main .content ul li a{
+    display: block;
+    position: relative;
+}
+.main .content ul li a img:first-child{
+    display: block;
+    width: 244px;
+    height: 244px;
+}
+.main .content ul li a img:last-child{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 28px;
+}
+.main .content ul li .jieshao{
+    padding: 0px 16px;
+    width: 212px;
+    height: 122px;
+    background: #fff;
+    word-wrap: break-word;
+    word-break: break-all;
+    position: relative;
+}
+.main .content ul li .jieshao h4{
+    padding-top: 10px;
+    font-size: 12px;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.main .content ul li .jieshao h4 a{
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+}
+.main .content ul li .jieshao h4 a:hover{
+    text-decoration: underline;
+}
+.main .content ul li .jieshao h4 .nr{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+.main .content ul li .jieshao p{
+    position: absolute;
+    left: 16px;
+    bottom: 15px;
+    line-height: 22px;
+    max-height: 26px;
+    overflow: hidden;
+}
+.main .content ul li .jieshao p{
+    color: #e31436;
+    font-weight: bold;
+    font-size: 16px;
+}
+.main .content ul li .jieshao p span,del{
+    color: #999999;
+    font-size: 10px;
+    font-weight: normal;
+}
+.main .content ul li .jieshao .mai{
+    display: inline-block;
+    padding: 0 6px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 16px;
+    right: 18px;  
+    background-color: #d22147;
+    color: #ffffff;
+}
+#main aside{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    margin-left: 520px; 
+    display: block;
+    width: 100px;
+    z-index: 2;
+    background-color: #aec0cb;
+    color: #000000;
+}  
+#main aside a{
+    display: block;
+    margin-bottom: 1px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: inherit;
+    background-color: rgb(218, 240, 254)
+}
